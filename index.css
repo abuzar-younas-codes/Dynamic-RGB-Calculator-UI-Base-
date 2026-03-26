@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e2f;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.buttons {
+    background-color: blue; /* Shuruat mein blue rahega */
+    text-align: center;
+    width: 450px;
+    height: 490px;
+    border-radius: 15px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Color change smooth hoga */
+}
+
+.buttons button {
+    width: 72px;
+    height: 72px;
+    margin: 7px;
+    font-size: 24px;
+    background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%); 
+    color: #333; 
+    box-shadow: 0 4px #999;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttons button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+    background: #ffcc00; /* Click karne par button yellow hoga */
+}
+
+#display {
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Nayi IDs ka style */
+#equalBtn, #clearBtn {
+    width: 170px;
+    height: 60px;
+    margin: 10px;
+    font-size: 24px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="buttons">
+        <input type="text" id="display" placeholder="0">
+        
+        <button onclick="pressNumber('9'); changeBg()">9</button>
+        <button onclick="pressNumber('8'); changeBg()">8</button>
+        <button onclick="pressNumber('7'); changeBg()">7</button>
+        <button onclick="pressOperator('/'); changeBg()">/</button>
+        <br>
+
+        <button onclick="pressNumber('6'); changeBg()">6</button>
+        <button onclick="pressNumber('5'); changeBg()">5</button>
+        <button onclick="pressNumber('4'); changeBg()">4</button>
+        <button onclick="pressOperator('+'); changeBg()">+</button>
+        <br>
+
+        <button onclick="pressNumber('3'); changeBg()">3</button>
+        <button onclick="pressNumber('2'); changeBg()">2</button>
+        <button onclick="pressNumber('1'); changeBg()">1</button>
+        <button onclick="pressOperator('-'); changeBg()">-</button>
+        <br>
+
+        <button onclick="pressNumber('0'); changeBg()">0</button>
+        <button onclick="pressOperator('%'); changeBg()">%</button>
+        <button onclick="pressOperator('.'); changeBg()">.</button>
+        <button onclick="pressOperator('*'); changeBg()">*</button>
+        <br>
+        <button id="equalBtn" onclick="solve(); changeBg()"> = </button>
+        <button id="clearBtn" onclick="clearScreen(); changeBg()">C</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
