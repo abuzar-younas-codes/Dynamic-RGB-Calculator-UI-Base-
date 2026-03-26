@@ -5,53 +5,67 @@ body {
     background-color: #1e1e2f;
     min-height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .buttons {
-    background-color: blue; /* Shuruat mein blue rahega */
+    background-color: blue;
     text-align: center;
-    width: 450px;
-    height: 490px;
-    border-radius: 15px;
+    width: 90%;            /* Mobile par 90% width lega */
+    max-width: 380px;      /* Baray screen par 380px se bara nahi hoga */
+    border-radius: 20px;
     padding: 20px;
-    transition: background-color 0.3s ease; /* Color change smooth hoga */
-}
-
-.buttons button {
-    width: 72px;
-    height: 72px;
-    margin: 7px;
-    font-size: 24px;
-    background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%); 
-    color: #333; 
-    box-shadow: 0 4px #999;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.buttons button:active {
-    box-shadow: 0 2px #666;
-    transform: translateY(2px);
-    background: #ffcc00; /* Click karne par button yellow hoga */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: background-color 0.4s ease;
 }
 
 #display {
-    width: 90%;
-    height: 50px;
+    width: 100%;
+    height: 60px;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 28px;
     text-align: right;
-    padding-right: 10px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     border: none;
+    background-color: #fff;
+    box-sizing: border-box; /* Padding ko width ke andar rakhne ke liye */
 }
 
-/* Nayi IDs ka style */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    flex: 1;               /* Buttons ko barabar jagah dega */
+    height: 65px;
+    margin: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+    transition: 0.1s;
+}
+
+.buttons button:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(3px);
+    background: #ffcc00;
+}
+
 #equalBtn, #clearBtn {
-    width: 170px;
+    flex: 2;               /* "=" aur "C" ko bara karne ke liye */
     height: 60px;
-    margin: 10px;
-    font-size: 24px;
+}
+
+/* Chotay Mobile Screens ke liye mazeed adjustments */
+@media (max-width: 360px) {
+    .buttons button {
+        height: 55px;
+        font-size: 18px;
+    }
 }
