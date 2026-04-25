@@ -57,14 +57,10 @@ body {
     background: #ffcc00;
 }
 
-
-#equalBtn, #backBtn, #clearBtn {
+/* Teeno buttons barabar jagah lenge */
+#equalBtn, #clearBtn, .row button:nth-child(2) {
     flex: 1;
     height: 60px;
-}
-
-#backBtn {
-    background: linear-gradient(180deg, #ffcc00 0%, #e6b800 100%);
 }
 
 @media (max-width: 360px) {
