@@ -8,6 +8,9 @@ Ek simple aur mazedar JavaScript calculator jo har click par apna rang (backgrou
 - **Error Handling:** Agar koi galat calculation ho (jaise `5++5`), to ye "Error" dikhata hai (using try-catch).
 - **Responsive Design:** Ye calculator screen ke darmiyan mein perfect nazar aata hai.
 
+<img width="1600" height="762" alt="UI screen shot" src="https://github.com/user-attachments/assets/580c5a80-d4e7-4f7a-9a30-8152cc5a9fff" />
+
+
 ## 🛠️ Tech Stack
 - **HTML5:** Structure ke liye.
 - **CSS3:** Styling aur animations ke liye.
@@ -19,5 +22,7 @@ Ek simple aur mazedar JavaScript calculator jo har click par apna rang (backgrou
 3. `C` ka button dabayein screen saaf karne ke liye.
 4. Maze lein har click par badalte rangon ke!
 
+## 🚀 Live Demo
+ https://abuzar-younas-codes.github.io/Dynamic-RGB-Calculator-UI-Base-/
 ---
-Developed with ❤️ by [Aapka Naam]
+Developed with ❤️ by [Abuzar younas]
