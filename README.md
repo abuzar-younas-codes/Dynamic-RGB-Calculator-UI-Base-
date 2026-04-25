@@ -8,7 +8,7 @@ Ek simple aur mazedar JavaScript calculator jo har click par apna rang (backgrou
 - **Error Handling:** Agar koi galat calculation ho (jaise `5++5`), to ye "Error" dikhata hai (using try-catch).
 - **Responsive Design:** Ye calculator screen ke darmiyan mein perfect nazar aata hai.
 
-<img width="1600" height="762" alt="UI screen shot" src="https://github.com/user-attachments/assets/580c5a80-d4e7-4f7a-9a30-8152cc5a9fff" />
+<img width="1600" height="763" alt="UI screen shot " src="https://github.com/user-attachments/assets/e5462510-ed11-4f2f-80fe-b51bae5f2f0b" />
 
 
 ## 🛠️ Tech Stack
