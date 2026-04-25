@@ -11,8 +11,8 @@ body {
 .buttons {
     background-color: blue;
     text-align: center;
-    width: 90%;            /* Mobile par 90% width lega */
-    max-width: 380px;      /* Baray screen par 380px se bara nahi hoga */
+    width: 90%;
+    max-width: 380px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -29,7 +29,7 @@ body {
     border-radius: 10px;
     border: none;
     background-color: #fff;
-    box-sizing: border-box; /* Padding ko width ke andar rakhne ke liye */
+    box-sizing: border-box;
 }
 
 .row {
@@ -39,7 +39,7 @@ body {
 }
 
 .buttons button {
-    flex: 1;               /* Buttons ko barabar jagah dega */
+    flex: 1;
     height: 65px;
     margin: 5px;
     font-size: 22px;
@@ -57,12 +57,16 @@ body {
     background: #ffcc00;
 }
 
-#equalBtn, #clearBtn {
-    flex: 2;               /* "=" aur "C" ko bara karne ke liye */
+
+#equalBtn, #backBtn, #clearBtn {
+    flex: 1;
     height: 60px;
 }
 
-/* Chotay Mobile Screens ke liye mazeed adjustments */
+#backBtn {
+    background: linear-gradient(180deg, #ffcc00 0%, #e6b800 100%);
+}
+
 @media (max-width: 360px) {
     .buttons button {
         height: 55px;
