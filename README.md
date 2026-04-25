@@ -1,4 +1,4 @@
-🌈 Dynamic RGB Calculator
+🌈 Dynamic RGB Calculator 
 A simple and fun JavaScript calculator that changes its background color every time you click a button!
 
 ✨ Features
